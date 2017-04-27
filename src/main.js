@@ -4,7 +4,7 @@ import App from './App';
 import goods from './components/goods/goods';
 
 /* eslint-disable no-new */
-vue.user(VueRouter);
+Vue.use(VueRouter);
 
 let app = Vue.extend(App);
 
@@ -16,4 +16,4 @@ router.map({
   }
 });
 
-router.start(app,'#app');
+router.start(App,'#app');
