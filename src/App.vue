@@ -42,6 +42,7 @@
 
 <!--</style>-->
 <style lang="stylus" rel="stylesheet/stylus">
+
         .tab
             display: flex
             width 100%
